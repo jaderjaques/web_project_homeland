@@ -4,7 +4,8 @@
     font-family: "Inter", "Arial", "sans-serif";
     line-height: 20px;
     font-size: 16px;
-    color: #2a2e2f;
+    background-color: #2a2e2f;
     margin: 0px auto 0px;
     box-sizing: border-box;
+    color:#ffffff;
   }

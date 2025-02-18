@@ -1,0 +1,53 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.content {
+    width: 830px;
+    height: 482px;
+    padding-bottom: 92px;
+    padding-left: 148px;
+
+}
+
+.content__tittle {
+    font-family: "inter";
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 58px;
+    margin: 0px;
+    padding-bottom: 40px;
+}
+
+.content__quote {
+    font-family: "inter";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    width: 738px;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+.content__author {
+    font-family: "inter";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: right;
+    width: 732px;
+    margin: 0px;
+    padding-bottom: 32px;
+}
+
+.content__text {
+    font-family: "inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;    
+    width: 722px;
+    margin: 0px;
+}

@@ -3,3 +3,52 @@
     flex-direction: column;
     align-items: center;
 }
+
+.header__nav {
+    padding:34px 0 90px 0;
+    margin:0px;
+}
+
+.header__logo {
+    width: 254px;
+    height: 70px;
+
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 92px;
+
+}
+
+.header__tittle {
+    font-family: "inter";
+    font-size: 96px;
+    font-weight: 900;
+    width: 720px;
+    line-height: 100px;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 32px;
+
+}
+
+.header__subtittle {
+    font-family: "inter";
+    font-size: 30px;
+    font-weight: 400;
+    width: 720px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 64px;
+
+}
+
+.header__image {
+    width: 984px;
+    height: 615px;
+
+}
