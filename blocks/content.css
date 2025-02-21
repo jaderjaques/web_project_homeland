@@ -9,8 +9,7 @@
     width: 830px;
     height: 482px;
     padding-bottom: 92px;
-    padding-left: 148px;
-
+    padding-left: calc((148 / 1280) * 100vw);
 }
 
 .content__title {
@@ -57,6 +56,7 @@
         width: 720px;
         height: 490px;
         padding:0 24px 88px 24px;
+        margin: 0 auto;
     }
 
     .content__title {
@@ -94,7 +94,8 @@
     .content {
         width: 288px;
         height: 878px;
-        padding:0 16px 64px 16px;
+        padding: 0 16px 64px 16px;
+        margin: 0 auto;
 
     }
 
