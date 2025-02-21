@@ -16,18 +16,20 @@
 }
 
 .header__content {
+    width: 984px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 92px;
-
+    overflow: hidden;
 }
 
-.header__tittle {
+.header__title {
     font-family: "inter";
     font-size: 96px;
     font-weight: 900;
-    width: 720px;
+    max-width: 720px;
+    max-height: 200px;
     line-height: 100px;
     text-align: center;
     margin: 0px;
@@ -35,7 +37,7 @@
 
 }
 
-.header__subtittle {
+.header__subtitle {
     font-family: "inter";
     font-size: 30px;
     font-weight: 400;
@@ -48,7 +50,115 @@
 }
 
 .header__image {
-    width: 984px;
-    height: 615px;
-
+    width: 100%;
+    height: auto;
+    aspect-ratio: 984 / 615;
+    object-fit: cover;
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .header__nav {
+        padding:30px 0 90px 0;
+        margin:0px;
+    }
+    
+    .header__logo {
+        width: 254px;
+        height: 66px;
+    
+    }
+    
+    .header__content {
+        width: 768px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 92px;
+        overflow: hidden;
+    
+    }
+    
+    .header__title {
+        font-family: "inter";
+        font-size: 75px;
+        font-weight: 900;
+        max-width: 530px;
+        max-height: 158px;
+        line-height: 79px;
+        text-align: center;
+        margin: 0px;
+        padding-bottom: 25px;
+    
+    }
+    
+    .header__subtitle {
+        font-family: "inter";
+        font-size: 30px;
+        font-weight: 400;
+        width: 720px;
+        line-height: 36px;
+        text-align: center;
+        margin: 0px;
+        padding-bottom: 30px;
+    
+    }
+    
+    .header__image {
+        width: 100%;
+        max-width: 768px;    
+    }
+    
+    }
+
+    @media screen and (max-width: 767px) {
+        .header__nav {
+            padding:20px 0 50px 0;
+            margin:0px;
+        }
+        
+        .header__logo {
+            width: 188px;
+            height: 54px;
+        
+        }
+        
+        .header__content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 92px;
+        
+        }
+        
+        .header__title {
+            font-family: "inter";
+            font-size: 40px;
+            font-weight: 900;
+            width: 228px;
+            line-height: 44px;
+            text-align: center;
+            margin: 0px;
+            padding-bottom: 16px;
+        
+        }
+        
+        .header__subtitle {
+            font-family: "inter";
+            font-size: 16px;
+            font-weight: 400;
+            width: 288px;
+            line-height: 20px;
+            text-align: center;
+            margin: 0px;
+            padding-bottom: 40px;
+        
+        }
+        
+        .header__image {
+            width: 100%;
+            max-width: 320px;
+        
+        }
+        
+        }
