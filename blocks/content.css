@@ -47,7 +47,7 @@
     font-family: "inter";
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;    
+    line-height: 26px;
     width: 722px;
     margin: 0px;
 }
@@ -57,50 +57,37 @@
         width: 720px;
         height: 490px;
         padding:0 24px 88px 24px;
-    
     }
-    
+
     .content__title {
-        font-family: "inter";
         font-size: 45px;
-        font-weight: 900;
         line-height: 49px;
-        margin: 0px;
         padding-right: 13px;
         padding-bottom: 50px;
         width: 707px;
     }
-    
+
     .content__quote {
-        font-family: "inter";
         font-size: 24px;
-        font-weight: 400;
         line-height: 34px;
         width: 720px;
-        margin: 0px;
         padding-bottom: 10px;
     }
-    
+
     .content__author {
-        font-family: "inter";
         font-size: 24px;
-        font-weight: 400;
         line-height: 34px;
         text-align: right;
         width: 720px;
-        margin: 0px;
         padding-bottom: 32px;
     }
-    
+
     .content__text {
-        font-family: "inter";
         font-size: 16px;
-        font-weight: 400;
-        line-height: 26px;    
+        line-height: 26px;
         width: 720px;
-        margin: 0px;
     }
-    
+
 }
 
 @media screen and (max-width: 767px) {
@@ -108,51 +95,40 @@
         width: 288px;
         height: 878px;
         padding:0 16px 64px 16px;
-    
+
     }
-    
+
     .content__title {
-        font-family: "inter";
         font-size: 32px;
-        font-weight: 900;
         line-height: 35px;
-        margin: 0px;
         padding-bottom: 40px;
         width: 100%;
         max-width: 288px;
     }
-    
+
+
     .content__quote {
-        font-family: "inter";
         font-size: 24px;
-        font-weight: 400;
         line-height: 30px;
-        margin: 0px;
         padding-bottom: 10px;
         width: 100%;
         max-width: 288px;
     }
-    
+
     .content__author {
-        font-family: "inter";
         font-size: 24px;
-        font-weight: 400;
         line-height: 34px;
         text-align: right;
-        margin: 0px;
         padding-bottom: 32px;
         width: 100%;
         max-width: 288px;
     }
-    
+
     .content__text {
-        font-family: "inter";
         font-size: 16px;
-        font-weight: 400;
-        line-height: 26px;    
-        margin: 0px;
+        line-height: 26px;
         width: 100%;
         max-width: 288px;
     }
-    
+
 }
