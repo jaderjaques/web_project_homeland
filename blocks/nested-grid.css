@@ -69,6 +69,11 @@
   box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.5);
 }
 
+.nested-grid__image:hover {
+  opacity: 0.5;
+}
+
+
 .nested-grid__text {
   font-family:"Inter", Arial, sans-serif;
   font-weight: 400;
