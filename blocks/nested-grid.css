@@ -89,8 +89,12 @@
   color: #ffffff;
   padding: 13px 20px;
   border-radius: 4px;
-  background: linear-gradient(to right, #0278FE 0%, #003A7B 100%);
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.nested-grid__button:hover {
+  background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
