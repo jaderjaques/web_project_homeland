@@ -4,4 +4,7 @@
 @import url(../blocks/header.css);
 @import url(../blocks/content.css);
 @import url(../blocks/section.css);
+@import url(../blocks/grid-gallery.css);
+@import url(../blocks/main-grid.css);
+@import url(../blocks/nested-grid.css);
 @import url(../blocks/footer.css);
